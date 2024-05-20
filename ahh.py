@@ -61,7 +61,7 @@ pmpermit = False
 # Approved Chats
 approved_chats = []
 # Sahipler burada yer alacak
-owner_id = input("KULLANİCİ İD GİR : ")  # Sahip kullanıcıların ID'lerini buraya ekleyin
+owner_id = "6958129929"  # Sahip kullanıcıların ID'lerini buraya ekleyin
 
 # Hesap bilgilerini güncelleme fonksiyonu
 async def update_profile(client):
@@ -85,9 +85,9 @@ async def update_profile(client):
         (f"Hesap bilgilerini güncellerken bir hata oluştu: {e}")
 
 # Telethon configuration
-telethon_api_id = input("APİ İD GİR : ")
-telethon_api_hash =input("APİ HASH GİR : ")
-telethon_telefon_numarasi = input("TELEGRAM HESAP NUMARA GİR : ")
+telethon_api_id = "16088758"
+telethon_api_hash = "7c959970fc76db9846339b79b7bd8aae"
+telethon_telefon_numarasi = "+905012870212"
 # Sudo kullanıcılar listesi
 sudo_users = [7010196653,7054009493,6958129929,5688244371,6364968071,1486645014, 6800066189]  # Sudo kullanıcıların ID'lerini buraya ekleyin
 
@@ -559,7 +559,7 @@ emojiler = ["Orospu Çocuğu",
 
 # Botun durumunu tutacak değişkenler
 bot_calisiyor = False
-owner_id = input("Telegram id tekrar: ")  # Botun sahibinin ID'si, uygun şekilde güncelleyin
+owner_id = "6958129929"  # Botun sahibinin ID'si, uygun şekilde güncelleyin
 
 @telethon_client.on(events.NewMessage)
 async def handle_message(event):
